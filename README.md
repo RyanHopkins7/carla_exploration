@@ -63,7 +63,7 @@ CARLA is clearly meant for autonomous driving research and I'm sure it is possib
 - [OpenCV](https://opencv.org/) - Computer vision library
 
 ## Authors
-- Ryan Hopkins - *The creator of this wonderful mess* - Research Assistant, [Michigan Tech Research Institute](https://www.mtu.edu/mtri/)
+- Ryan Hopkins - *Author* - Research Assistant, [Michigan Tech Research Institute](https://www.mtu.edu/mtri/)
 - Joseph Paki, Ph.D. - *Who provided amazing direction and guidance* - Research Scientist, [Michigan Tech Research Institute](https://www.mtu.edu/mtri/)
 
 ## Acknowledgements
