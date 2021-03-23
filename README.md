@@ -51,9 +51,7 @@ Sure enough, the bounding box gets drawn anyways in the same area of the image a
 
 ### Building a Self Driving Agent
 
-Turns out, reinforcement learning is hard. *Who knew?*
-
-Unfortunately, my laptop ended up being a limiting factor in creating a self driving agent using reinforcement learning because it kept overheating and crashing. [Disabling rendering](https://carla.readthedocs.io/en/latest/adv_rendering_options/) may have been beneficial to performance. I was able to train an agent using deep Q learning to drive straight forward at 50kmh for 10 seconds. I used code from [sentdex on pythonprogramming.net](https://pythonprogramming.net/introduction-self-driving-autonomous-cars-carla-python/) and I'd recommend checking out his tutorial if you're interested in learning more. The one thing to note is that he trains his model using multi-threading, and [I was only able to get multi-threaded training working with Keras 2.2.5 and TensorFlow 1.14](https://github.com/keras-team/keras/issues/13353). This is the behavior of the model I trained to drive straight forward starting from various spawn points.
+Unfortunately, my laptop ended up being a limiting factor in creating a self driving agent using deep Q learning because it kept overheating and crashing. [Disabling rendering](https://carla.readthedocs.io/en/latest/adv_rendering_options/) may have been beneficial to performance. I was able to train an agent using deep Q learning to drive straight forward at 50kmh for 10 seconds. I used code from [sentdex on pythonprogramming.net](https://pythonprogramming.net/introduction-self-driving-autonomous-cars-carla-python/) and I'd recommend checking out his tutorial if you're interested in learning more. The one thing to note is that he trains his model using multi-threading, and [I was only able to get multi-threaded training working with Keras 2.2.5 and TensorFlow 1.14](https://github.com/keras-team/keras/issues/13353). This is the behavior of the model I trained to drive straight forward starting from various spawn points.
 
 ![Self driving model test gif](sensor_output/self_driving_test.gif)
 
